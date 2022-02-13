@@ -1,0 +1,74 @@
+{% extends 'base.html' %}
+
+{% block 'titulo' %}Projetos{% endblock 'titulo' %}
+
+{% block 'conteudo' %}
+
+<section class="section-page-title" style="background-image: url(/static/images/page-titlte-1-1920x305.jpg); background-size: cover;">
+  <div class="container">
+    <h1 class="page-title">Projetos</h1>
+  </div>
+</section>
+<section class="breadcrumbs-custom">
+  <div class="container">
+    <ul class="breadcrumbs-custom-path">
+      <li><a href="/">Página Inicial</a></li>
+      <li class="active">Projetos</li>
+    </ul>
+  </div>
+</section>
+<!-- Image Centered-->
+<section class="section section-lg bg-default">
+  <div class="container">
+    <div class="row row-40">
+      <div class="col-lg-10 col-xl-8">
+        <h4>Análise de ações</h4>
+      </div>
+      <div class="col-lg-10 col-xl-8">
+        <figure class="figure-light"><img class="img-centered" src="/static/images/typography-1-770x485-1.jpg" <alt="" width="770" height="485"/>
+          <figcaption>
+            <p>Projeto com streamlit</p>
+          </figcaption>
+        </figure>
+        <p class="text-gray-800">Esta é uma aplicação web feita com a biblioteca streamlit. Além de ser um biblioteca de fácil compreensão e com opções úteis ela permite que você faça o deploy do projeto gratuitamente.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Image Left-->
+<section class="section section-lg bg-default">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-xl-8"> 
+        <div class="row row-40"> 
+          <div class="col-sm-12">
+            <h4>Requisitar dados online</h4>
+          </div>
+          <div class="col-md-6"><img src="/static/images/typography-1-770x485.jpg" alt="" width="770" height="485"/>
+          </div>
+          <div class="col-md-6">
+            <p class="text-gray-800">O acesso a certos dados online pode ser muito extenso e demorado, mas com a ferramenta certa você pode obtê-los em segundos e com uma análise pré-definida. Neste projeto eu precisava de alguns preços de uma loja de roupas e requisitei os dados para serem retornados em um arquivo txt</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Image Right-->
+<section class="section section-lg bg-default">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-xl-8">
+        <h4>Análise com pandas</h4>
+        <div class="row row-30 flex-md-row-reverse">
+          <div class="col-md-6"><img src="/static/images/typography-1-770x485-2.jpg" alt="" width="770" height="485"/>
+          </div>
+          <div class="col-md-6">
+            <p class="text-gray-800">Pandas é uma biblioteca que auxilia na análise de dados em tabela e junto com outras bibliotecas também permite fazer a visualização dos dados de forma organizada. Neste projeto analisei dados de jogos de diversas plataformas.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endblock 'conteudo' %}

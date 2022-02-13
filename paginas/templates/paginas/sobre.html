@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+
+{% block 'titulo' %}Sobre{% endblock 'titulo' %}
+
+{% block 'conteudo' %}
+
+<section class="section-page-title" style="background-image: url(/static/images/page-titlte-1-1920x305.jpg); background-size: cover;">
+  <div class="container">
+    <h1 class="page-title">Sobre</h1>
+  </div>
+</section>
+<section class="breadcrumbs-custom">
+  <div class="container">
+    <ul class="breadcrumbs-custom-path">
+      <li><a href="/">Página Inicial</a></li>
+      <li class="active">Sobre</li>
+    </ul>
+  </div>
+</section>
+<section class="section section-lg bg-default">
+  <div class="container">
+    <div class="row row-50 align-items-lg-center justify-content-xl-between">
+      <div class="col-lg-6">
+        <div class="block-xs">
+          <h2>Quem sou eu</h2>
+          <div class="divider-lg"></div>
+          <p class="big text-gray-800">Neste espaço do site falarei um pouco sobre quem eu sou.</p>
+          <p>Sou Roger, nasci em 1998 e moro em Duque de Caxias. Desde sempre sou interessado por tecnologia e aprender a utilizá-las, a interação com sistemas e programas e com a possibilidade de alterar é sempre divertida</p>
+          <p>Acredito que, com calma e pensando de forma lógica, podemos aprender qualquer coisa.</p>
+        </div>
+        <div class="row row-30">
+          <div class="col-md-6">
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="box-images box-images-variant-3">
+          <div class="box-images-item" data-parallax-scroll="{&quot;y&quot;: -20,   &quot;smoothness&quot;: 30 }"><img src="/static/images/overview-1-470x282.jpg" alt="" width="470" height="282"/>
+          </div>
+          <div class="box-images-item box-images-without-border" data-parallax-scroll="{&quot;y&quot;: 40,  &quot;smoothness&quot;: 30 }"><img src="/static/images/overview-2-470x282.jpg" alt="" width="470" height="282"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock 'conteudo' %}
